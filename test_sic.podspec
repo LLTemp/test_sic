@@ -14,10 +14,10 @@ Pod::Spec.new do |spec|
 
   
   #spec.vendored_frameworks = "test_sic.framework/test_sic"
-  #spec.source       = { :http => "https://github.com/LLTemp/test_sic_zip/raw/main/test_sic_v2.framework.zip" }
-  spec.source       = { :path => '.' }
-  spec.exclude_files = "test_sic/*.swift"
-  #spec.source_files  = "test_sic/*.swift"
+  spec.source       = { :http => "https://github.com/LLTemp/test_sic_zip/raw/main/test_sic_v2.framework.zip" }
+  #spec.source       = { :path => '.' }
+  #spec.exclude_files = "test_sic/*.swift"
+  spec.source_files  = "test_sic/*.swift"
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
