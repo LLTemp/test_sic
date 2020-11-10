@@ -18,58 +18,13 @@ Pod::Spec.new do |spec|
   spec.name         = "test_sic"
   spec.version      = "0.0.2"
   spec.summary      = "A really short description of test_sic. Included some specific points"
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "Signer’s Interaction Component. Part of the eID App which is responsible for managing keys, interractins with SSA"
-
   spec.homepage     = "https://github.com/LLTemp/test_sic_zip"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See https://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
   spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
-
-  spec.author             = { "SergeyBrazhnik" => "sergey.brazhnik@ledgerleopard.com" }
-  # Or just: spec.author    = "SergeyBrazhnik"
-  # spec.authors            = { "SergeyBrazhnik" => "sergey.brazhnik@ledgerleopard.com" }
-  # spec.social_media_url   = "https://twitter.com/SergeyBrazhnik"
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
-  # spec.platform     = :ios
+  spec.author             = { "SergeyBrazhnik" => "sergey.brazhnik@ledgerleopard.com" }  
   spec.platform     = :ios, "14.0"
 
-  #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -77,9 +32,9 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
-  #spec.ios.vendored_frameworks = 'test_sic.framework'
+  
   spec.source       = { :http => "https://github.com/LLTemp/test_sic_zip/raw/main/test_sic.zip" }
+  spec.vendored_frameworks = "test_sic/test_sic.framework"
 
   
 
