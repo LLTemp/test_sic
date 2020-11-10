@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :http => "https://github.com/LLTemp/test_sic_zip/blob/main/test_sic.framework.zip" }
-  #spec.vendored_frameworks = 'test_sic.framework'
+  spec.vendored_frameworks = 'test_sic.framework'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
