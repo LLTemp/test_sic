@@ -78,8 +78,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
+  spec.ios.vendored_frameworks = 'test_sic.framework'
   spec.source       = { :http => "https://github.com/LLTemp/test_sic_zip/blob/main/test_sic.framework.zip" }
-  spec.vendored_frameworks = 'test_sic.framework'
+  
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
