@@ -1,0 +1,10 @@
+framework module test_sic {
+  umbrella header "test_sic.h"
+
+  export *
+  module * { export * }
+}
+
+module test_sic.__Swift {
+    exclude header "test_sic-Swift.h"
+}

@@ -1,0 +1,11 @@
+framework module test_sic {
+  umbrella header "test_sic.h"
+
+  export *
+  module * { export * }
+}
+
+module test_sic.Swift {
+    header "test_sic-Swift.h"
+    requires objc
+}

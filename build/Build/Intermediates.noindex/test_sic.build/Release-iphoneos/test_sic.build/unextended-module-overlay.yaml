@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/sergey/REPOS/ios/test/test_sic/build/Build/Products/Release-iphoneos/test_sic.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/sergey/REPOS/ios/test/test_sic/build/Build/Intermediates.noindex/test_sic.build/Release-iphoneos/test_sic.build/unextended-module.modulemap",
+    }]
+  }]
+}
